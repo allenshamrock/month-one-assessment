@@ -1,0 +1,11 @@
+aws_region = "us-east-1"
+
+# Your public IP address for SSH access (find it at https://whatismyipaddress.com/)
+my_ip = "YOUR_IP_ADDRESS/32"
+
+# SSH Key Configuration
+key_name = "techcorp-key"
+
+bastion_instance_type = "t3.micro"
+web_instance_type     = "t3.micro"
+db_instance_type      = "t3.small"
